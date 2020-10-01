@@ -1,0 +1,55 @@
+#container { 
+    background-color: aqua;
+    
+    
+}
+h1 {
+    text-align: justify;
+}
+
+.contentContainer {
+    display: flex;
+}
+
+ .fishList{ 
+    display: flex;
+    flex-flow: column wrap;
+    align-content: space-around;
+    background-color: greenyellow;
+    border-style: double;
+    border-color: honeydew;
+    
+}
+.fish {
+    border-style: solid;  
+}
+.fish2{
+    border-style: solid;
+}
+.fish3{
+    border-style: solid
+    ;
+}
+
+.travel {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: space-around;
+    background-color: maroon;
+    border-style: double;
+    border-color: honeydew;
+}
+.travel__quotes {
+    border-style: dotted;
+}
+.travel__locations {
+    border-style: dotted;
+}
+
+.tipList {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border-style: double;
+    border-color: honeydew;
+} 
