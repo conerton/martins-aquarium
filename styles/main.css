@@ -4,7 +4,8 @@
     
 }
 h1 {
-    text-align: justify;
+    text-align: center;
+    background-color: mediumorchid;
 }
 
 .contentContainer {
@@ -20,16 +21,13 @@ h1 {
     border-color: honeydew;
     
 }
-.fish {
+.fish, .fish2, .fish3 {
     border-style: solid;  
 }
-.fish2{
-    border-style: solid;
+.fishGroup {
+    background-color: orange;
 }
-.fish3{
-    border-style: solid
-    ;
-}
+
 
 .travel {
     display: flex;
@@ -41,13 +39,14 @@ h1 {
 }
 .travel__quotes {
     border-style: dotted;
+    background-color: gray;
 }
 .travel__locations {
     border-style: dotted;
+    background-color: burlywood;
 }
 
 .tipList {
-    display: flex;
     flex-direction: column;
     justify-content: flex-end;
     border-style: double;
