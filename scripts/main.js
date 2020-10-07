@@ -1,1 +1,5 @@
-console.log("Welcome to the module!")
+import { useFish } from "./FishDataProvider.js"
+
+const allTheFish = useFish()
+
+console.log(allTheFish)
