@@ -1,22 +1,22 @@
 #container { 
-    background-color: aqua;
+    background-color: lightgrey;
     
     
 }
 h1 {
     text-align: center;
-    background-color: mediumorchid;
+    background-color: darkcyan;
 }
 
 .contentContainer {
     display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-evenly;
 }
 
  .fishList{ 
-    display: flex;
-    flex-flow: column wrap;
-    align-content: space-around;
-    background-color: greenyellow;
+    background-color: cadetblue;
     border-style: double;
     border-color: honeydew;
     
@@ -25,15 +25,12 @@ h1 {
     border-style: solid;  
 }
 .fishGroup {
-    background-color: orange;
+    background-color: coral;
 }
 
 
 .travel {
-    display: flex;
-    flex-flow: column wrap;
-    align-content: space-around;
-    background-color: maroon;
+    background-color: coral;
     border-style: double;
     border-color: honeydew;
 }
@@ -47,8 +44,9 @@ h1 {
 }
 
 .tipList {
-    flex-direction: column;
-    justify-content: flex-end;
+    
     border-style: double;
     border-color: honeydew;
+    border-width: 10px 10px;
+    
 } 
