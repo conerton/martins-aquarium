@@ -7,11 +7,20 @@ import { LocationList } from "./Travel/Location/LocationList.js"
 import { useQuote } from "./Travel/Quotes/QuoteDataProvider.js"
 import { QuoteList } from "./Travel/Quotes/QuoteList.js"
 
+import { useTip } from "./Travel/Tips/TipDataProvider.js"
+import { TipList } from "./Travel/Tips/TipList.js"
+
 FishList()
 
 QuoteList()
 
 LocationList();
+
+TipList()
+
+
+
+
 
 
 
