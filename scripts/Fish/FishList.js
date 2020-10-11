@@ -1,11 +1,11 @@
 import { Fish } from "./Fish.js"
-import { useFish } from "./FishDataProvider.js"
+import { mostHolyFish, useFish } from "./FishDataProvider.js"
 
 export const FishList = () => {
 
 const contentElement = document.querySelector(".fishTravel")
 
-const fishes = useFish()
+const fishes = mostHolyFish()
 
 let fishHTMLRepresentations = ""
 

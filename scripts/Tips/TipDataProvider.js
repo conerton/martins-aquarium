@@ -1,23 +1,23 @@
-const tipCollection = [
-    {
-       text: "Salt the water!"
-    },
+// const tipCollection = [
+//     {
+//        text: "Salt the water!"
+//     },
 
-    {
-        text: "Get the right temp!"
-    },
+//     {
+//         text: "Get the right temp!"
+//     },
 
-    {
-        text: "Give them lots of kisses!"
-    }
+//     {
+//         text: "Give them lots of kisses!"
+//     }
 
 
-]
+// ]
 
-export const useTip = () => {
-    return tipCollection.slice()
-}
+// export const useTip = () => {
+//     return tipCollection.slice()
+// }
 
-export const addTip = (tipObj) => {
-    tipCollection.push(tipObj)
-}
+// export const addTip = (tipObj) => {
+//     tipCollection.push(tipObj)
+// }
