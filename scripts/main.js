@@ -1,4 +1,4 @@
-import { mostHolyFish, useFish } from "./Fish/FishDataProvider.js"
+// import { mostHolyFish, soldierFish, useFish } from "./Fish/FishDataProvider.js"
 import { FishList } from "./Fish/FishList.js"
 
 import { useLocation } from "./Travel/Location/LocationDataProvider.js"
@@ -17,7 +17,13 @@ QuoteList()
 
 LocationList();
 
-mostHolyFish();
+// mostHolyFish();
+
+// soldierFish()
+
+// regularFish()
+
+
 // TipList()
 
 

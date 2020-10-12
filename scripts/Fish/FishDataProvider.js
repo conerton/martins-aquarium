@@ -8,7 +8,7 @@ const fishCollection = [
     {
         name: "Misses",
         species: "Tetraodontidae",
-        length: "24 inches",
+        length: "25 inches",
         location: "Indian Ocean",
         diet: "Algae, small invertebrates",
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTgRgmcpWxf-mv2uNrse-pzyvoZkpu3o5PDrg&usqp=CAU"
@@ -34,9 +34,9 @@ const fishCollection = [
     }
 ]
 
-    export const useFish = () => {
-        return fishCollection.slice()
-    }
+    // export const useFish = () => {
+    //     return fishCollection.slice()
+    // }
 
     // export const addFish = (fishObject) => {
     //     fishCollection.push(fishObject)
@@ -58,10 +58,27 @@ const fishCollection = [
     
     export const soldierFish = () => {
         // 5, 10, 15, 20, 25, etc... fish
+       
+       const soldiers = []
+
+       for (const fish of fishCollection) {
+           if (fish.length % 5 === 0 && fish.length % 3 !== 0 ) {
+               soldiers.push(fish)
+           }
+       }
+    
         return soldiers
     }
     
     export const nonHolyFish = () => {
         // Any fish not a multiple of 3 or 5
+
+        const regularFish = []
+
+        for (const fish of fishCollection) {
+            if (fish.length % 5 !== 0 && fish.length % 3 !== 0 ) {
+                regularFish.push(fish)
+            }
+        }
         return regularFish
     }
